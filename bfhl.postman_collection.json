@@ -21,7 +21,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:5000/bfhl",
+          "raw": "https://bajaj-assignment-fikp.onrender.com/bfhl",
           "protocol": "http",
           "host": [
             "localhost"
