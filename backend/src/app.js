@@ -8,6 +8,10 @@ const app=express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/",(req,res)=>{
+res.send("BFHL API Running");
+});
+
 app.use("/bfhl",bfhl);
 
 app.use((err,req,res,next)=>{
