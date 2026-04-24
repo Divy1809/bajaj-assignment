@@ -1,0 +1,38 @@
+{
+  "info": {
+    "_postman_id": "dab8ab50-4ecc-4c69-beee-06e541548066",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "37724781"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n \"data\": [\r\n   \"A->B\",\r\n   \"A->C\",\r\n   \"B->D\",\r\n   \"G->H\",\r\n   \"G->H\",\r\n   \"hello\"\r\n ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/bfhl",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "bfhl"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
