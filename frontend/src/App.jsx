@@ -18,7 +18,7 @@ const arr=input
 .filter(Boolean);
 
 const res=await axios.post(
-"http://localhost:5000/bfhl",
+"https://bajaj-assignment-fikp.onrender.com/bfhl",
 {data:arr}
 );
 
